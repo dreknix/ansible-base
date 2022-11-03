@@ -1,6 +1,7 @@
 *
 !.envrc
 !.gitignore
+!LICENSE
 !README.md
 !requirements.txt
 !Taskfile.yml
