@@ -1,0 +1,6 @@
+*
+!.envrc
+!.gitignore
+!README.md
+!requirements.txt
+!Taskfile.yml

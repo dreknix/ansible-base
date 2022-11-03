@@ -1,0 +1,13 @@
+---
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+
+  update:
+    desc: Install/Update Ansible and Python packages
+    cmds:
+      - pip3 install --upgrade -r requirements.txt
+
+...

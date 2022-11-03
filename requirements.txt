@@ -1,0 +1,11 @@
+#
+# https://pypi.org/project/ansible/
+#
+ansible==6.5.0
+#
+ansible-runner
+ansible-lint
+yamllint
+molecule[docker]
+argcomplete # bash completion
+requests    # used by check_versions.py
