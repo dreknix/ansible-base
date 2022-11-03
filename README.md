@@ -1,4 +1,4 @@
-# Ansible base
+# Ansible-Base
 
 Base directory structure for Ansible.
 
@@ -14,3 +14,21 @@ $ tree -a
 ```
 
 Clone all other Ansible repositories beneath this directory.
+
+## Setup Ansible Installation
+
+Configure Python virtual environment via `direnv`:
+
+```console
+$ direnv allow .
+```
+
+Install all Ansible packages and tools needed:
+
+```console
+$ task update
+```
+
+## License
+
+[MIT](https://github.com/dreknix/dotfiles/blob/main/LICENSE)
