@@ -9,3 +9,4 @@ yamllint
 molecule[docker]
 argcomplete # bash completion
 requests    # used by check_versions.py
+psutil      # used by ansible module dconf
