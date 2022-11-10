@@ -31,4 +31,4 @@ $ task update
 
 ## License
 
-[MIT](https://github.com/dreknix/dotfiles/blob/main/LICENSE)
+[MIT](https://github.com/dreknix/ansible-base/blob/main/LICENSE)
