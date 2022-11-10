@@ -15,6 +15,21 @@ $ tree -a
 
 Clone all other Ansible repositories beneath this directory.
 
+```console
+$ tree
+├── collections
+│   └── ansible_collections
+│       └── dreknix
+│           ├── ...
+│           └── ...
+├── roles
+│   ├── ...
+│   └── ...
+└── work
+    ├── ...
+    └── ...
+```
+
 ## Setup Ansible Installation
 
 Configure Python virtual environment via `direnv`:
