@@ -1,13 +1,13 @@
 #
 # https://pypi.org/project/ansible/
 #
-ansible==8.1.0
+ansible==8.2.0
 #
 ansible-runner
 ansible-lint
 yamllint
-molecule[lint,docker,podman]
-molecule-vagrant
+molecule
+molecule-plugins[docker,podman,vagrant]
 python-vagrant
 argcomplete # bash completion
 dnspython   # used by lookup('dig')
