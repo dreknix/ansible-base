@@ -8,7 +8,7 @@ tasks:
   update:
     desc: Install/Update Ansible and Python packages
     cmds:
-      - pip3 install --upgrade pip setuptools
-      - pip3 install --upgrade -r requirements.txt
+      - pip3 install --require-virtualenv --upgrade pip setuptools
+      - pip3 install --require-virtualenv --upgrade -r requirements.txt
 
 ...
