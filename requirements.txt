@@ -1,7 +1,7 @@
 #
 # https://pypi.org/project/ansible/
 #
-ansible==9.2.0
+ansible==9.3.0
 #
 ansible-runner
 ansible-lint
