@@ -1,7 +1,7 @@
 #
 # https://pypi.org/project/ansible/
 #
-ansible==13.6.0
+ansible==13.7.0
 #
 ansible-runner
 ansible-lint
